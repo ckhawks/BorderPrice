@@ -1,0 +1,14 @@
+name: BorderPrice
+main: net.byteplex.toaster.borderprice.Main
+version: 1.0
+depend: [WorldBorder]
+commands:
+    donate:
+        description: Donate what the user is holding to the worldborder cause.
+        usage: /<command>
+        permission: borderprice.donate
+        permission-message: You don't have permission!
+permissions:
+    borderprice.donate:
+        description: Donate your ores to the cause
+        default: true
